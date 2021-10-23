@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="fs2.css" />
+    <script src="js/pw.js"></script>
+  
+    <title>Grade calculator 💡</title>
+  </head>
+  <body>
+    <div class="con">
+      <h1>SGPA Calculator</h1>
+      <div>
+        <input class="subject" placeholder="sub1" />
+        <input class="credits" placeholder="credits1" />
+      </div>
+      <div>
+        <input class="subject" placeholder="sub2" />
+        <input class="credits" placeholder="credits2" />
+      </div>
+      <div>
+        <input class="subject" placeholder="sub3" />
+        <input class="credits" placeholder="credits3" />
+      </div>
+      <div>
+        <input class="subject" placeholder="sub4" />
+        <input class="credits" placeholder="credits4" />
+      </div>
+      <div>
+        <input class="subject" placeholder="sub5" />
+        <input class="credits" placeholder="credits5" />
+      </div>
+      <div>
+        <input class="subject" placeholder="sub6" />
+        <input class="credits" placeholder="credits6" />
+      </div>
+      <div>
+        <input class="subject" placeholder="sub7" />
+        <input class="credits" placeholder="credits7" />
+      </div>
+      <div>
+        <input class="subject" placeholder="sub8" />
+        <input class="credits" placeholder="credits8" />
+      </div>
+    </div>
+    <button onclick="getResult()" class="btn">Calculate</button>
+    <div class="result1">
+    <b>CGPA:</b><input type="text" size="4" maxlength="4" id="resultsgpa" readonly>
+    </div>
+    <div id="res1">
+      
+    </div>
+<!--  
+    <div class="CGPA">
+      <h1>CGPA Calculator</h1>
+      <div>
+        <input class="semister" placeholder="sem1" />
+      </div>
+      <div>
+        <input class="semister" placeholder="sem2" />
+      </div>
+      <div>
+        <input class="semister" placeholder="sem3" />   
+      </div>
+      <div>
+        <input class="semister" placeholder="sem4" />
+      </div>
+      <div>
+        <input class="semister" placeholder="sem5" />
+      </div>
+      <div>
+        <input class="semister" placeholder="sem6" />
+      </div>
+      <div>
+        <input class="semister" placeholder="sem7" />
+      </div>
+      <div>
+        <input class="semister" placeholder="sem8" />
+      </div>
+    </div>
+    <button onclick="getResult2()" class="btn">Calculate</button>
+    -->
+        
+        <div class="CGPA1">
+        <h1>CGPA Calculator</h1>
+        <b> SEM 1</b>&nbsp;&nbsp;&nbsp;-&nbsp;<input type="number" size="6" maxlength="3" id="n1" value="0"/><br/><br/>
+        <b>SEM 2</b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;<input type="number" size="6" maxlength="3" id="n2" value="0"/><br/><br/>
+        <b>SEM 3</b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;<input type="number" size="6" maxlength="3" id="n3" value="0"/><br/><br/>
+        <b>SEM 4</b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;<input type="number" size="6" maxlength="3" id="n4" value="0"/><br/><br/>
+        <b>SEM 5</b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;<input type="number" size="6" maxlength="3" id="n5" value="0"/><br/><br/>
+        <b>SEM 6</b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;<input type="number" size="6" maxlength="3" id="n6" value="0"/><br/><br/>
+        <b>SEM 7</b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;<input type="number" size="6" maxlength="3" id="n7" value="0"/><br/><br/>
+        <b>SEM 8</b>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;<input type="number" size="6" maxlength="3" id="n8" value="0"/><br/><br/>
+       
+        <select id="operators" style="visibility:hidden;">
+            <option value="+">+</option>
+       
+        </select>
+        <button type="submit"  class="button1" onclick="calc();">Calculate</button>
+        <b>CGPA:</b><input type="text" size="4" maxlength="4" id="result" readonly>
+        </div>
+
+        <div class="container d-flex justify-content-center mt-50 mb-50">
+          <div class="row">
+              <div class="col-md-12 text-right mb-3">
+                  <button  class="btn btn-primary" onclick="window.print()">Download PDF</button>
+              </div>       
+  </body>
+</html>

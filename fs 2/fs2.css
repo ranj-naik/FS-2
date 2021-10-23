@@ -1,0 +1,68 @@
+.subject {
+    padding: 10px;
+  }
+ .credits {
+    padding: 10px;
+  }
+ .con {
+    width: 100%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+
+ .btn {
+    padding: 10px;
+    background-color: black;
+    display: block;
+    color: white;
+    border: none;
+    margin: 20px auto;
+  }
+
+  .result1 {
+    margin: 0 auto;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+
+ /** .semister {
+    padding: 10px;
+  }
+
+  .CGPA {
+    width: 100%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+**/
+  .CGPA1 {
+    margin: 0 auto;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  .result {
+    margin: 0 auto;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+ 
+
+  .button1{
+    padding: 10px;
+    background-color: black;
+    display: block;
+    color: white;
+    border: none;
+    margin: 20px auto;
+
+  }
