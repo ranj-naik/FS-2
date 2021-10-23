@@ -21,35 +21,12 @@
         sum = sum + marks[i] * credits[i];
         total_credits += parseInt(credits[i]);
       }
-     /** const h1 = document.createElement("h1");
-      h1.innerText ="SGPA:" + (sum / total_credits); 
-      h1.style.textAlign = "center";
-      document.body.append(h1); */
+   
       document.getElementById('resultsgpa').value = parseFloat(sum/total_credits).toFixed(2);
     }
     let grades = [];
 
-//error 
-/** 
-     function getResult2() 
-    {
-      let all_grades = Array.from(document.querySelectorAll(".semister"));
 
-      all_grades.forEach((node) => {
-        grades.push(node.value);
-      });
-      let sum = 0;
-      
-      for (let i = 0; i < 8; i++) {
-        sum = sum + grades[i] ;
-      }
-      const h1 = document.createElement("h1");
-      h1.innerText ="CGPA:" + ( sum / 8 );
-      h1.style.textAlign = "center";
-      document.body.append(h1);
-    }
-
-*/
 
     function calc()
     {

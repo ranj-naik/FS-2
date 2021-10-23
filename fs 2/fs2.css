@@ -31,20 +31,7 @@
     text-align: center;
   }
 
- /** .semister {
-    padding: 10px;
-  }
-
-  .CGPA {
-    width: 100%;
-    margin: 0 auto;
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
-**/
+ 
   .CGPA1 {
     margin: 0 auto;
     background-color: antiquewhite;

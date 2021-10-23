@@ -16,7 +16,7 @@
     $Email_Address = $_POST['Email'];
 	$Phone_Number = $_POST['Phonenumber'];
 	$Password = $_POST['Password'];
-	//$hashed = hash("sha512",$Password);
+	
 	
     mysqli_query($con,"INSERT INTO b(c,d,e) VALUES ('$Email_Address','$Phone_Number','$Password')");
 				
@@ -29,7 +29,7 @@
 	echo "NOT Inserted<br />";
 	echo mysqli_error ($con);
 }
-//	header("refresh:2; url=http://localhost/login/signup.html");
+
     $con->close();
 
 
